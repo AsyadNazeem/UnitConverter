@@ -3,6 +3,17 @@ let inputBtn = document.getElementById("input-btn")
 let lengthEL = document.getElementById("length-el")
 let volumeEl = document.getElementById("volume-el")
 let massEl = document.getElementById("mass-el")
+let icon = document.getElementById("icon")
+
+
+function darkTheme(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "darkTheme/sun.png"
+    }else{
+        icon.src = "darkTheme/moon.png"
+    }
+}
 
 function length(){
     let baseValue = inputEl.value
