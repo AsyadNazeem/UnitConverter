@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.main{
+    text-align: center;
+    padding: 60px 450px;
+}
+
+.header{
+    padding: 20px 20px 50px 20px;
+    background-color: #6943FF;
+}
+
+.header > h1{
+    font-size: 28px;
+    color: white;
+}
+
+#input-el{
+    width: 95px;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #6943FF;
+    border-color: white;
+    color: white;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.convertBtn > button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 2px;
+    border-radius: 5px;
+    font-weight: lighter;
+    border: none;
+}
+
+.body{
+    margin-top: -20px;
+    background-color: whitesmoke;
+    padding: 20px 0 10px 0;
+}
+
+.card{
+    color: #5A537B;
+    font-size: 10px;
+    padding: 10px;
+    background-color: white;
+    margin: 0 25px 25px 25px;
+}
